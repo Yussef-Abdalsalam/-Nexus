@@ -1,0 +1,411 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ******************************** [ Starte Navbar ] *********************************** */
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #00000034;
+    z-index: 99;
+}
+
+.logo-nav h2 a {
+    color: #6366F1;
+    text-decoration: none;
+}
+.logo-nav h2 {
+    color: #6366F1 !important;
+}
+
+.lest-nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 5rem;
+    padding-top: .8rem;
+    padding: -1rem;
+}
+
+.lest-nav ul li {
+    padding-inline: 1rem;
+}
+
+.lest-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all, .2s;
+}
+
+.lest-nav a:hover {
+    color: #6366F1;
+}
+
+.logo-nav2 h2 a {
+    font-size: 20px;
+    color: #fff; 
+    background-color: #6366F1;
+    padding: .8rem;
+    border-radius: 1rem;
+}
+.logo-nav2 h2 a:hover {
+    background-color: #8486e7;
+}
+/* ******************************** [ Starte About ] *********************************** */
+
+.home {
+    background: url("../imgs/misty-forest-stream-stockcake.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 9rem;
+    height: 70vh;
+    text-align: center;
+}
+
+.home-content {
+    padding: 3rem 2rem;
+    width: 40%;
+    position: relative;
+    height: 32vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.home h2 {
+    color: #FFF;
+    font-size: 1.8rem;
+}
+
+.home p {
+    font-size: 17px;
+    max-width: 40rem;
+    margin: auto;
+    color: #f2f2f2b8;
+}
+
+.home-content-button {
+    padding-top: 1.5rem;
+}
+
+.home-content-button .btn1 {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: #6366F1;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(90deg, #fff, #317de24e);
+}
+.home-content-button .btn1:hover {
+    background: linear-gradient(90deg, #317de24e, #fff);
+}
+
+.home-content-button .btn2 {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 2px solid #ddddddb2;
+}
+.home-content-button .btn2:hover {
+    color: #1dbce4;
+    border: 2px solid #ffffff;
+    
+}
+.home-button .btn1 {
+    cursor: pointer;
+    padding: .8rem;
+    margin-inline: .5rem;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #0a3e82a7;
+    border: none;
+}
+.home-button .btn1:hover {
+    background-color: #4ab3d9e3;
+}
+
+.home-button {
+    margin-top: 2rem;
+}
+
+
+/* *********************************************************** */
+.team {
+    height:60vh;
+    background-color: rgba(116, 152, 172, 0.195);
+    padding-block: 4rem 5rem;
+}
+
+.team-h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.team-h2 h2::before {
+    content: "";
+    background: linear-gradient(45deg  , #277ce4, #49248d);
+    position: absolute;
+    left: 48%;
+    top:106%;
+    width: 80px;
+    height: 4px;
+    border-radius: 3px;
+}
+.team-h2 p{
+    color:#0000004e ;
+}
+
+.team-flex {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenr {
+    margin-inline: .5rem;
+    width: 25%;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 10px #00000089;
+    overflow: hidden;
+}
+.contenr:hover {
+    transform: scale(1.1);
+}
+
+.contenr img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.contenr img:hover {
+    transform: scale(1.01);
+}
+
+.contenr-p h2 {
+    color: #17244e;
+    font-weight: 800;
+}
+
+.contenr-p h3 {
+    color: #0b65db;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-block: .8rem -.2rem;
+}
+.contenr-p p {
+   font-size: 1rem;
+}
+
+.contenr-p {
+    padding-top: 1rem;
+    overflow: hidden;
+    padding-inline:.2rem;
+    text-align: center;
+}
+
+.contenr-p{
+    font-size: 26px;
+    color: #197af1;
+}
+.contenr-p i{
+    color: #19c6f1;
+}
+
+.contenr-p .Skills {
+    display: flex;
+
+}
+
+.contenr-p .Skills div {
+    border-radius: .8rem;
+    padding: 4px 10px;
+    margin: 0rem .2rem .5rem .5rem;
+    background-color: #23c99a5a;
+    color: #2a4087;
+}
+
+.contenr-p p {
+    color: #6a6b6cae;
+   
+}
+
+
+.contenr-img {
+    background-color: #49248d;
+    color: #fff;
+    padding-block: 50px;
+     font-size: 26px;
+    text-align: center;
+}
+
+.contenr-p .btn1 {
+    border: 0px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(280deg, #197af1de, #fff);
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+
+
+.contenr-p .btn1:hover {
+background: linear-gradient(280deg, #fff, #197af1de);
+}
+
+
+.Impact h3{
+    color: #2c50bd;
+}
+.Impact i{
+    color: #19d8f1;
+}
+.Impact:hover i{
+    color: #2c50bd;
+}
+
+
+/* ************************************************* */
+
+
+#Contact {
+    background-color: rgba(116, 152, 172, 0.195);
+}
+
+.contact {
+    width: 75%;
+    padding-block: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-h2 {
+    text-align: center;
+    padding-top: 1rem;
+    color: #17244e;
+}
+
+.contact .Forms {
+    width: 50%;
+    margin: auto;
+    padding-left: 18rem;
+}
+
+.contact .Forms form {
+
+    margin: auto;
+
+}
+
+.contact .Forms input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: .2rem;
+    margin: 20px 0;
+    border: none;
+    background-color: #e3dfdd;
+}
+
+.contact .Forms textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+}
+
+.contact .Forms button {
+    margin-left: 5.5rem;
+    text-align: center;
+    color: #fff;
+    background-color: #0b65db;
+    border: #0b65db 1px solid;
+    padding: .9rem;
+    border-radius: .8rem;
+    padding-inline: 1.4rem;
+    transition: all, .2s;
+}
+
+.contact .Forms button:hover {
+    background-color: #fff;
+    color: #197af1;
+}
+
+.contact-add{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+.contenr-p22{
+    margin: -1rem;
+}
+
+
+/* ******************************** [ Starte Footer ] *********************************** */
+
+
+footer {
+    background-color: #223750;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.footerContnt{
+    border-bottom: 1px #79797976 solid;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerContnt1{
+    width: 25%;
+}
+.footerContnt1 ul{
+    list-style-type: none;
+}
+.footerContnt1 ul li{
+    font-size: 16px;
+    padding-block: 5px;
+    border-radius: 4px;
+    padding-left: 2px;
+    transition: all .5s;
+}
+.footerContnt1 ul li:hover{
+    background-color: #6192d182;
+}
+
+.footerContnt1 i{
+    padding: 1rem;
+    background-color: #00000041;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footerContnt1 i:hover{
+    color: #000;
+    background-color: #ffffff89;
+}
+
+
+footer .footerr {
+    text-align: center;
+}
